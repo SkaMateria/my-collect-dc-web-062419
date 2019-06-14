@@ -1,3 +1,6 @@
 def my_collect(collection)
   array = []
-end
+  my_collect(collection) do |up|
+    up.upcase
+  end
+  end
